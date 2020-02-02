@@ -1,12 +1,14 @@
 {
   "nodes":[
-		{"name":"node1","group":1},
-		{"name":"node2","group":1},
-		{"name":"node3","group":2},
-		{"name":"node4","group":3}
+		{"name":"nodeA","group":1},
+		{"name":"nodeB","group":1},
+		{"name":"nodeC","group":2},
+		{"name":"nodeD","group":3}
 	],
 	"links":[
 		{"source":2,"target":1,"weight":3},
+		{"source":0,"target":1,"weight":1},
+		{"source":2,"target":2,"weight":1},		
 		{"source":1,"target":2,"weight":3}
 	]
 }
