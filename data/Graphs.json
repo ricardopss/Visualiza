@@ -3,7 +3,7 @@
 		{"name":"nodeA","group":1},
 		{"name":"nodeB","group":1},
 		{"name":"nodeC","group":2},
-		{"name":"nodeD","group":3}
+		{"name":"nodeD","group":2}
 	],
 	"links":[
 		{"source":2,"target":1,"weight":3},
