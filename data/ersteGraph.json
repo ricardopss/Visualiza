@@ -1,0 +1,30 @@
+{
+  "nodes": [
+	{"id": "Wissen", "group": 12},
+	{"id": "Verben", "group": 2},
+	{"id": "denken", "group": 3},
+	{"id": "kennen", "group": 3},	
+	{"id": "überlegen", "group": 3},
+	{"id": "nachdenken", "group": 3},	
+	{"id": "Nomen", "group": 4},
+	{"id": "Gedächtnis", "group": 5},
+	{"id": "Erinnerung", "group": 5},		
+	{"id": "Adjektiven", "group": 8},
+	{"id": "erinnerlich", "group": 9},
+	{"id": "unvergesslich", "group": 9}		
+	],
+
+	"links":[
+		{"source": "Verben", "target": "Wissen", "value": 1},
+		{"source": "denken", "target": "Verben", "value": 1},
+		{"source": "kennen", "target": "Verben", "value": 1},
+		{"source": "überlegen", "target": "Verben", "value": 1},
+		{"source": "nachdenken", "target": "Verben", "value": 1},								
+		{"source": "Nomen", "target": "Wissen", "value": 2},
+		{"source": "Gedächtnis", "target": "Nomen", "value": 2},
+		{"source": "Erinnerung", "target": "Nomen", "value": 2},				
+		{"source": "Adjektiven", "target": "Wissen", "value": 3},
+		{"source": "erinnerlich", "target": "Adjektiven", "value": 3},
+		{"source": "unvergesslich", "target": "Adjektiven", "value": 3}				
+	]
+}
