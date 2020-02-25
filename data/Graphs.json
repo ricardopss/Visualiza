@@ -1,14 +1,29 @@
 {
+<<<<<<< HEAD
   "nodes": [
 	{"id": "Wissen", "group": 12},
 	{"id": "Verben", "group": 2},
 	{"id": "Nomen", "group": 4},
 	{"id": "Adjektiven", "group": 8}
+=======
+  "nodes":[
+		{"name":"nodeA","group":1},
+		{"name":"nodeB","group":1},
+		{"name":"nodeC","group":2},
+		{"name":"nodeD","group":2}
+>>>>>>> 0dfce7457adb10e06da4268ecb598d3f6684dfec
 	],
 
 	"links":[
+<<<<<<< HEAD
 		{"source": "Verben", "target": "Wissen", "value": 1},
 		{"source": "Nomen", "target": "Wissen", "value": 2},
 		{"source": "Adjektiven", "target": "Wissen", "value": 3}
+=======
+		{"source":2,"target":1,"weight":3},
+		{"source":0,"target":1,"weight":1},
+		{"source":2,"target":2,"weight":1},		
+		{"source":1,"target":2,"weight":3}
+>>>>>>> 0dfce7457adb10e06da4268ecb598d3f6684dfec
 	]
 }
