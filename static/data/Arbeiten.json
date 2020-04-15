@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {"id": "die Arbeiten", "group": 1, "satzt": "Zu der Arbeit!"},
+    {"id": "sich beschäftigen", "group": 2, "satzt": "In Moment bechäftige ich mich mit data Analysierung.\nsich beschäftigen = employ, occupy, keep occupied."},
+    {"id": "sich betätigen", "group": 2, "satzt": "Er betätigt sich als Mechaniker\nsich betätigen = to occupy oneself"},
+    {"id": "arbeiten", "group": 2, "satzt": "Ich arbeiten mehr an die Computer\narbeiten = to work"},
+    {"id": "sich widmen", "group": 2, "satzt": "Er widmete sich ganz seinen Kindern.\nsich widmen = dedicate yourself"},
+    {"id": "sich befassen", "group": 2, "satzt": "Der berühmte Naturforscher befasste sich Jahre lang mit Bäumen.\nsich befassen = deal (stark)"},
+    {"id": "ausüben", "group": 2, "satzt": "Bei meinem letzten Arbeitgeber habe ich diese Tätigkeit sechs Jahre lang ausgeübt"},
+    {"id": "sich hingeben", "group": 2, "satzt": "Die Frau gab sich ihren wissenschaftlichen Studien hin.\nsich hingeben = devote oneself to sth/soe"},        
+    {"id": "machen", "group": 2, "satzt": "Ich mache Vorhersagen"}                
+      ],
+  "links": [
+    {"source": "sich beschäftigen", "target": "die Arbeiten", "value": 1},
+    {"source": "sich betätigen", "target": "die Arbeiten", "value": 1},
+    {"source": "sich betätigen", "target": "sich beschäftigen", "value": 3},    
+    {"source": "arbeiten", "target": "die Arbeiten", "value": 1},
+    {"source": "sich widmen", "target": "die Arbeiten", "value": 1},
+    {"source": "sich befassen", "target": "die Arbeiten", "value": 1},
+    {"source": "machen", "target": "die Arbeiten", "value": 1},
+    {"source": "ausüben", "target": "die Arbeiten", "value": 1},
+    {"source": "sich hingeben", "target": "die Arbeiten", "value": 1}    
+  ]
+}
